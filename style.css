@@ -122,3 +122,34 @@ img {
   padding: 20px;
   color: white;
 }
+
+.watch-ultra img {
+  width: 15%;
+  height: 15%;
+}
+
+.watch-ultra {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.watch-image {
+  padding-top: 100px;
+}
+
+.div-image img {
+  width: 60%;
+  height: 60%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  padding-left: 110px;
+}
+
+.geral {
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+}
